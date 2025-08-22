@@ -1,0 +1,167 @@
+.nav-bg{
+    background-color: #122c4f;
+}
+
+.parallax {
+    position: relative;
+    background-image: url(../img/rp.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Centralização com Flexbox */
+    display: flex;
+    align-items: center;
+    /* centraliza verticalmente */
+    justify-content: center;
+    /* centraliza horizontalmente */
+    text-align: center;
+    /* garante que o texto interno fique centralizado */
+
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.parallax h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 3rem;
+    /* ajuste conforme necessidade */
+}
+
+.parallax p {
+    position: relative;
+    z-index: 2;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+  .no-border-radius {
+            border-radius: 0 !important;
+        }
+
+        .no-shadow {
+            box-shadow: none !important;
+        }
+
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+/* Faz a coluna do mapa e do card ocuparem a mesma altura */
+.row>.col-md-6.d-flex {
+    display: flex;
+}
+
+.info-card {
+    background: linear-gradient(135deg, #ffffff, #f0f2f5);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    flex: 1;
+}
+
+
+.info-card h3 {
+    font-weight: 700;
+    color: #222;
+}
+
+.info-card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.info-list {
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.info-list li {
+    padding: 8px 0;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.info-list li i {
+    font-size: 1.2rem;
+}
+
+
+.projeto-bg{
+    background-color: #b3cfe5;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    /* leve gradiente */
+    border-radius: 20px;
+}
+
+
+.project-card h2 {
+    color: #222;
+    font-weight: 700;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.h2-color-cat{
+    color: #f8f9fa;
+    font-size: 3rem;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 15px;
+}
+
+
+.blog-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.blog-card .card-body h5 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.blog-card .card-body p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.bg-footer{
+    background-color: #122c4f;
+}
+
+.footer a:hover {
+    color: #0d6efd;
+    /* azul Bootstrap */
+    text-decoration: underline;
+}
+
+.footer i:hover {
+    transform: scale(1.2);
+}
